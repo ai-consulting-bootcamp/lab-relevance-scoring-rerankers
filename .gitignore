@@ -1,0 +1,9 @@
+.env
+
+# Local source data and macOS files
+.DS_Store
+/konwledge-base/
+
+# Local source data and macOS files
+.DS_Store
+/konwledge-base/
