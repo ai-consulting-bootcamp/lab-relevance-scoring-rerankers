@@ -1,0 +1,11 @@
+python-dotenv
+pypdf
+langchain-core>=1,<2
+langchain-openai>=1,<2
+langchain-text-splitters>=1,<2
+langchain-pinecone>=0.2
+pinecone
+nbformat
+nbclient
+ipykernel
+sentence-transformers

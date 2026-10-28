@@ -1,0 +1,16 @@
+query_id,query,method,top1_id,top1_changed,shared_top5,retrieval_seconds,rerank_seconds,generation_seconds,estimated_pipeline_seconds
+Q1,What AI practices are prohibited under the EU AI Act?,baseline,regulation-0398,False,5,1.0098438998684287,0.0,3.124818000011146,4.134661899879575
+Q1,What AI practices are prohibited under the EU AI Act?,llm_scoring,regulation-0398,False,3,1.0098438998684287,13.96351860044524,4.135386899812147,19.108749400125816
+Q1,What AI practices are prohibited under the EU AI Act?,cross_encoder,regulation-0398,False,4,1.0098438998684287,6.377837700070813,2.4227732999715954,9.810454899910837
+Q2,What are the seven requirements for trustworthy AI?,baseline,podcast-0002,False,5,0.31691300007514656,0.0,1.223757900064811,1.5406709001399577
+Q2,What are the seven requirements for trustworthy AI?,llm_scoring,regulation-0060,True,3,0.31691300007514656,11.82504350040108,1.263521600048989,13.405478100525215
+Q2,What are the seven requirements for trustworthy AI?,cross_encoder,regulation-0060,True,2,0.31691300007514656,0.4884801001753658,1.187269100220874,1.9926622004713863
+Q3,What is the difference between human-in-the-loop and human-on-the-loop?,baseline,podcast-0008,False,5,0.3073546998202801,0.0,1.498569600051269,1.805924299871549
+Q3,What is the difference between human-in-the-loop and human-on-the-loop?,llm_scoring,podcast-0008,False,5,0.3073546998202801,13.740526200504974,1.357863700017333,15.405744600342587
+Q3,What is the difference between human-in-the-loop and human-on-the-loop?,cross_encoder,podcast-0008,False,2,0.3073546998202801,0.4737282001879066,1.3289898000657558,2.1100727000739425
+Q4,What fines apply for using a prohibited AI practice?,baseline,regulation-0398,False,5,0.4674174999818206,0.0,1.4925100000109524,1.959927499992773
+Q4,What fines apply for using a prohibited AI practice?,llm_scoring,regulation-0750,True,3,0.4674174999818206,9.277677699690685,1.5719501001294702,11.317045299801975
+Q4,What fines apply for using a prohibited AI practice?,cross_encoder,regulation-0750,True,3,0.4674174999818206,0.3763078998308629,1.585963899968192,2.4296892997808754
+Q5,Is social scoring of citizens allowed?,baseline,regulation-0071,False,5,0.24613830004818738,0.0,1.7538412001449615,1.9999795001931489
+Q5,Is social scoring of citizens allowed?,llm_scoring,regulation-0095,True,4,0.24613830004818738,11.279584599891677,3.705974099924788,15.231696999864653
+Q5,Is social scoring of citizens allowed?,cross_encoder,regulation-0072,True,5,0.24613830004818738,0.3878145001363009,1.829977700021118,2.4639305002056062
